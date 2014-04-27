@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/memohomebutton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Memo" />
+    <EditText
+        android:id="@+id/memohomeeditText1"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:visibility="gone"
+        android:inputType="textPersonName" >
+        <requestFocus />
+    </EditText>
+    <Button
+        android:id="@+id/memohomebutton2"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm Time"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/alarmtimebutton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Alarm" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="20px"
+     
+            android:layout_height="fill_parent"
+            
+             >
+
+          <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_marginBottom="10px"
+                android:layout_marginTop="30px"
+                android:layout_width="100px"
+                android:layout_height="wrap_content" >
+                
+              
+              <ImageView
+                  android:id="@+id/alarmtimeimageView1"
+                  android:layout_width="50px"
+                  android:layout_height="50px"
+                  android:visibility="gone"
+                  android:src="@drawable/speakclock" />
+
+                 <TextView
+        android:id="@+id/alarmtimetextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:layout_marginRight="5px"
+        android:layout_marginLeft="120px"
+        android:text="02:00 AM"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+           <ToggleButton
+            android:id="@+id/alarmtimetoggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:text="ToggleButton" />
+           
+            </TableRow>
+              <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_marginBottom="10px"
+                android:layout_marginTop="30px"
+                android:background="@drawable/shape3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+        </TableRow>
+
+       <TableRow
+                android:id="@+id/alarmtimetableRow2"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content" >
+             <ImageView
+           android:id="@+id/alarmtimeimageView2"
+           android:layout_width="50px"
+           android:layout_height="50px"
+           android:visibility="gone"
+           android:src="@drawable/alarm4" />
+                 <TextView
+        android:id="@+id/alarmtimetextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="120px"
+        android:text="05:00 AM"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+           <ToggleButton
+            android:id="@+id/alarmtimetoggleButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton" />
+            </TableRow>
+
+               <EditText
+           android:id="@+id/sonueditText1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" android:visibility="gone"
+        />
+       <Button
+           android:id="@+id/sonubutton1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" android:visibility="gone"
+           android:text="Set Alarm Time" />
+
+        </TableLayout>
+
+    </LinearLayout>
+

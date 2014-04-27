@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="@drawable/shape2"
+  android:layout_height="match_parent">
+  <TextView
+        android:id="@+id/memodisplaytextView1"
+        android:layout_width="wrap_content"
+         android:layout_marginLeft="10px"
+        android:layout_height="wrap_content"
+android:textStyle="bold"
+android:textColor="#ff66ff33"
+        android:text="" 
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        />
+  <TextView
+        android:id="@+id/memodisplaytextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textStyle="bold|italic"
+        android:text=""
+         android:layout_marginLeft="10px"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        
+         />
+     <TextView
+        android:id="@+id/memodisplaytextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+         android:layout_marginLeft="10px"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        
+         />
+ 
+      <TextView
+        android:id="@+id/memodisplaytextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="10px"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        
+         />
+ 
+    
+   </LinearLayout>

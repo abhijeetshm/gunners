@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+            <TextView
+        android:id="@+id/createmessagetextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/createmessagetextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:visibility="gone"
+        android:text="TextView" />
+    
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" 
+        android:layout_height="wrap_content" >
+
+        
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/number" />
+
+    <EditText
+        android:id="@+id/cmsgeditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginRight="5px"
+        android:textSize="20px"
+        android:text="Enter Number"
+        android:inputType="number" >
+        <requestFocus />
+    </EditText>
+</LinearLayout>
+
+
+    <EditText
+        android:id="@+id/cmsgeditText2"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        android:layout_width="match_parent"
+        android:layout_height="300px" />
+
+       <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content" >
+ 
+    <Button
+        android:id="@+id/cmsgbutton1"
+        android:textSize="20px"
+        android:layout_marginRight="3px"
+        android:layout_marginLeft="5px"
+        android:layout_width="100px"
+        android:layout_height="80px"
+        android:text=" Send " />
+
+    <Button
+        android:id="@+id/cmsgbutton2"
+        android:layout_width="100px"
+        android:layout_height="80px"
+        android:layout_marginRight="3px"
+        android:text=" Save " />
+
+    <Button
+        android:id="@+id/cmsgbutton3"
+        android:layout_width="100px"
+        android:layout_height="80px"
+        android:text=" Quit " />
+</LinearLayout>
+</LinearLayout>

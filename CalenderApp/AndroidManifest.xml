@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.examples"
+    android:versionCode="1"
+    android:versionName="1.0"  >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/cal" android:label="@string/app_name" android:name="MyApplication"
+        >
+        <activity android:name=".SimpleCalendarViewActivity" android:theme="@android:style/Theme.Dialog"
+                  android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                                      </intent-filter>
+        </activity>
+     <activity android:name=".SetAlarm"
+                  android:label="@string/app_name" android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.sonendra.mishra" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+<activity android:name=".Reminder"
+                  android:label="@string/app_name" android:theme="@android:style/Theme.Dialog"  >
+            <intent-filter>
+                <action android:name="com.sonendra.mishra1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".Memo"
+                  android:label="@string/app_name" android:theme="@android:style/Theme.Dialog"  >
+            <intent-filter>
+                <action android:name="com.sonendra.mishra2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    <activity android:name=".AutoMessage"
+                  android:label="@string/app_name" android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.sonendra.mishra3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+              <activity android:name=".SetAlarmHome"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.mishra4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    <activity android:name=".AutoMessageHome"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.mishra5" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReminderHome"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.mishra6" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MemoHome"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.mishra7" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+             <activity android:name=".MemoDisplay"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.mishra8" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlarmTime"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.alarmtime"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlarmTone"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.alarmtone"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RepeatAlarm"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.repeatalarm"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SpeakingClock" android:theme="@android:style/Theme.Dialog"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.speakingclock"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TimeSetting"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.timesetting"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            
+            <activity android:name=".CreateMessage"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.createmessage"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Inbox"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.inbox"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SentItems"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.sentitems"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Drafts"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.drafts"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeleteMessage"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.deletemessage"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            
+            <activity android:name=".Birthday"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.birthday"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Meeting"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.meeting"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ImportantDates"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.importantdates"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Others"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.others"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeleteReminder"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.sonendra.deletereminder"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlarmTimeTone" android:theme="@android:style/Theme.Dialog"
+                  android:label="@string/app_name">
+            <intent-filter>
+                  <action android:name="com.sonendra.alarmtimetone"/>
+                <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter>
+        </activity>
+        <activity android:name=".GetSelectedDateandTime" android:theme="@android:style/Theme.Dialog"
+                  android:label="@string/app_name">
+            <intent-filter>
+                  <action android:name="com.sonendra.selectedtime"/>
+                <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlarmTimeOK" android:theme="@android:style/Theme.Dialog"
+                  android:label="@string/app_name">
+            <intent-filter>
+                  <action android:name="com.sonendra.salil"/>
+                <category android:name="android.intent.category.DEFAULT" />  
+            </intent-filter>
+        </activity>
+        <receiver android:name="MyBroadcastReceiver"></receiver>
+         <receiver android:name="MessageSender"></receiver>
+            
+            </application>
+            <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+            <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+</manifest>
